@@ -24,7 +24,7 @@ $(".btn1").click(function(){
       audio.play();
       if(a.length==5){
         $("h1").text("Well-Done you have completed 5 stages");
-          var audio = new Audio('sounds/'Prize.mp3');
+          var audio = new Audio('sounds/Prize.mp3');
           audio.play();
         }  
       if(a.length==b.length){
